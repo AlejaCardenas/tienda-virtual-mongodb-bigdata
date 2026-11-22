@@ -87,14 +87,17 @@ Los resultados permiten identificar el comportamiento general de las ventas y an
 
 ## 8. Archivos del proyecto
 
-La carpeta `scripts` contiene:
+El repositorio está organizado en dos carpetas principales:
 
-- `01_crear_base_datos.js`: selección de la base de datos y creación de colecciones.
-- `02_operaciones_crud.js`: ejemplos de operaciones CRUD.
-- `03_consultas_agregacion.js`: consultas para el análisis de ventas.
-- `tienda_bigdata.clientes.json`: datos de prueba de clientes.
-- `tienda_bigdata.productos.json`: catálogo de productos.
-- `tienda_bigdata.ventas.json`: registros de ventas.
+**Carpeta `scripts/`:**
+- `01_crear_base_datos.js`: creación de las colecciones.
+- `02_operaciones_crud.js`: operaciones de inserción, consulta, actualización y eliminación.
+- `03_consultas_agregacion.js`: análisis de ventas e ingresos mediante agregaciones.
+
+**Carpeta `datos/`:**
+- `tienda_bigdata.clientes.json`: 30 documentos de clientes.
+- `tienda_bigdata.productos.json`: 40 documentos de productos.
+- `tienda_bigdata.ventas.json`: 80 documentos de ventas.
 
 ## 9. Cómo utilizar el proyecto
 
